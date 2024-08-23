@@ -20,8 +20,7 @@ We approach wrist pathology recognition as a fine-grained recognition problem. W
     #### Recommended [weights and biases](https://wandb.ai/site)
 
 ### 1.1. Dataset
-In this paper, we use a dataset curated from [GRAZPEDWRI-DX](https://www.nature.com/articles/s41597-022-01328-z)
-The curated dataset can be found at:
+In this paper, we use a dataset curated from [GRAZPEDWRI-DX](https://www.nature.com/articles/s41597-022-01328-z). The curated dataset can be found at:
 * [Curated Dataset](https://figshare.com/s/eb452d2fb36b8ae523c6)
 
 ### 1.2. Our Pre-trained Model
