@@ -86,12 +86,9 @@ train, val, and test data structures:
 │   └── ....
 ```
 
-<<<<<<< HEAD
+
 ### 2.2. Configuration
 All the important configuration files are located at [config](./configs/) folder. You can directly modify yaml file if needed.
-=======
-### 2.2. configuration
-All the important configuration files are located in [config](./configs/) folder. You can directly modify yaml file if needed.
 
 ### 2.3. Run
 ```
@@ -106,10 +103,6 @@ comment out main.py line 66
 model = torch.nn.DataParallel(model, device_ids=None)
 ```
 
-### 2.6.  Automatic Mixed Precision (amp)
-use_amp: True, training time about 3 hours.  
-use_amp: False, training time about 5 hours.  
-
 ## 3. Evaluation
 If you want to evaluate our pre-trained model or your custom-trained model (specify the path to your model in the config file):
 ```
@@ -123,7 +116,7 @@ python heat.py --c ./configs/wrist.yaml --img data/test/1/0069_0502540283_01_WRI
 ```
 ![visualization](./imgs/heatmaps.png)
 
-## 5. Infer
+## 5. Inference
 If you want to reason your picture and get the confusion matrix, please provide configs/eval.yaml 
 ```
 python infer.py --c ./configs/eval.yaml
