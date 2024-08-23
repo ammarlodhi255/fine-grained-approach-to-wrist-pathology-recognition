@@ -1,6 +1,5 @@
 import numpy as np
 
-# Assume cm is your confusion matrix
 cm = np.array([[11, 4, 0, 2],
                [1, 23, 0, 1],
                [0, 0, 14, 1],
@@ -17,10 +16,8 @@ def calculate_specificity(cm):
 
     return np.array(specificity_list)
 
-# Usage
 specificity_per_class = calculate_specificity(cm)
 print(f'Specificity per class: {specificity_per_class}')
 
-# If you want to compute the average specificity
 average_specificity = np.mean(specificity_per_class)
 print(f'Average Specificity: {average_specificity}')
