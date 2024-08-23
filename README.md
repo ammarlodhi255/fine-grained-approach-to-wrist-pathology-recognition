@@ -1,7 +1,6 @@
-
 # Learning from the Few: Fine-grained Approach to Pediatric Wrist Pathology Recognition on a Limited Dataset
 
-Paper url: 
+Paper URL: 
 
 We appoach wrist pathology recognition as a fine-grained recognition problem. We refine our fine-grained architecture through ablation analysis and the integration of LION optimization. Leveraging Grad-CAM, an explainable AI technique, we highlight these regions. Despite using limited data, reflective of real-world medical study constraints, our method consistently outperforms state-of-the-art image recognition models on both augmented and original (challenging) test sets. Our proposed refined architecture achieves an increase in accuracy of 1.06% and 1.25% compared to the baseline method, resulting in accuracies of 86% and 84%, respectively. Moreover, our approach demonstrates the highest fracture sensitivity of 97%, highlighting its potential to enhance wrist pathology recognition.
 
@@ -93,13 +92,13 @@ python main.py --c ./configs/wrist.yaml
 model will save in ./records/{project_name}/{exp_name}/backup/
 
 
-### 2.5. multi-gpus
+### 2.5. Multi-GPUs
 comment out main.py line 66
 ```
 model = torch.nn.DataParallel(model, device_ids=None)
 ```
 
-### 2.6.  automatic mixed precision (amp)
+### 2.6.  Automatic Mixed Precision (amp)
 use_amp: True, training time about 3-hours.  
 use_amp: False, training time about 5-hours.  
 
