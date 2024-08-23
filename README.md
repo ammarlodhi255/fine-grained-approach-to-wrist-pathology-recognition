@@ -11,11 +11,10 @@ We appoach wrist pathology recognition as a fine-grained recognition problem. We
 ## 1. Environment setting 
 
 ### 1.0. Package
-* install requirements
-    
-    #### PyTorch Model Implementation [timm](https://github.com/rwightman/pytorch-image-models)
-    #### Recommended [anaconda](https://www.anaconda.com/products/distribution)
-    #### Recommended [weights and biases](https://wandb.ai/site)
+* Install Requirements
+```
+pip install -r requirements.txt
+```
 
 ### 1.1. Dataset
 In this paper, we use a dataset curated from [GRAZPEDWRI-DX](https://www.nature.com/articles/s41597-022-01328-z)
@@ -84,7 +83,7 @@ train, val, and test data structures:
 │   └── ....
 ```
 
-### 2.2. configuration
+### 2.2. Configuration
 All the important configuration files are are located at [config](./configs/) folder. You can directly modify yaml file if needed.
 
 ### 2.3. Run
