@@ -116,8 +116,7 @@ Results will be saved at ./records/{project_name}/{exp_name}/eval_results.txt
 ```
 python heat.py --c ./configs/wrist.yaml --img data/test/1/0069_0502540283_01_WRI-L1_M013.png --save_img ./0069_0502540283_01_WRI-L1_M013.png
 ```
-![visualization](./imgs/org.png)
-![visualization2](./imgs/heatmap.png)
+![visualization](./imgs/heatmaps.png)
 
 ## 5. Infer
 If you want to reason your picture and get the confusion matrix, please provide configs/eval.yaml 
