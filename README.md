@@ -159,16 +159,8 @@ Results will be saved in ./records/{project_name}/{exp_name}/infer_results.txt
 
 If you find our paper useful in your research, please consider citing:
 
-    @misc{yolov10_fracture,
-      title={YOLOv10 for Automated Fracture Detection in Pediatric Wrist Trauma X-rays},
-      author={Ammar Ahmed and Abdul Manaf},
-      year={2024},
-      eprint={2407.15689},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2407.15689},
-
-}
+    @article{
+    }
 
 - - - - - - 
 
