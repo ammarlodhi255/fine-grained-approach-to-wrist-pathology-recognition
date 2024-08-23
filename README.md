@@ -86,11 +86,10 @@ train, val, and test data structures:
 
 <<<<<<< HEAD
 ### 2.2. Configuration
-All the important configuration files are are located at [config](./configs/) folder. You can directly modify yaml file if needed.
+All the important configuration files are located at [config](./configs/) folder. You can directly modify yaml file if needed.
 =======
 ### 2.2. configuration
 All the important configuration files are located in [config](./configs/) folder. You can directly modify yaml file if needed.
->>>>>>> e8cacf89a38a79dc25b52c121252bc8fe08c5115
 
 ### 2.3. Run
 ```
@@ -111,11 +110,9 @@ use_amp: False, training time about 5 hours.
 
 ## 3. Evaluation
 If you want to evaluate our pre-trained model or your custom-trained model (specify the path to your model in the config file):
-
 ```
 python main.py --c ./configs/eval.yaml
 ```
-
 Results will be saved in ./records/{project_name}/{exp_name}/eval_results.txt
 
 ## 4. Heatmap Generation
