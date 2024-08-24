@@ -173,7 +173,7 @@ If you find our paper useful in your research, please consider citing:
 
 ### Acknowledgment
 
-* Thanks to [PIM](https://github.com/chou141253/FGVC-PIM) for their Pytorch implementation of Plug-in Module.
+* Thanks to [PIM](https://github.com/chou141253/FGVC-PIM) for their base Pytorch implementation of Plug-in Module.
 
 * This work was supported in part by the Department of Computer Science (IDI), Faculty of Information Technology and Electrical Engineering, Norwegian University of Science and Technology (NTNU), Gjøvik, Norway; and in part by the Curricula Development and Capacity Building in Applied Computer Science for Pakistani Higher Education Institutions (CONNECT), Project number: NORPART-2021/10502, funded by DIKU.
 
