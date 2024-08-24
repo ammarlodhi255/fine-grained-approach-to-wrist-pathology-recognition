@@ -159,9 +159,16 @@ Results will be saved in ./records/{project_name}/{exp_name}/infer_results.txt
 
 If you find our paper useful in your research, please consider citing:
 
-    @article{
-    }
-
+    @article{ahmed2024learning,
+        title     = {Learning from the Few: Fine-Grained Approach to Pediatric Wrist Pathology Recognition on a Limited Dataset},
+        author    = {Ahmed, Ammar and Imran, Ali Shariq and Kastrati, Zenun and Daudpota, Sher Muhammad and Ullah, Muhammad and Noor, Waqar},
+        year      = {2024},
+        journal   = {Computers in Biology and Medicine},
+        volume    = {181},
+        pages     = {109044},
+        url       = {https://doi.org/10.1016/j.compbiomed.2024.109044},
+        doi       = {10.1016/j.compbiomed.2024.109044}
+}
 - - - - - - 
 
 ### Acknowledgment
